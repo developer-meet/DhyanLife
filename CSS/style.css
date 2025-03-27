@@ -209,3 +209,94 @@
     margin-right: 0px !important;
   }
 }
+
+/* Home Section */
+
+.home-sec {
+  background: linear-gradient(to top, #ffffff, #f2fbf5);
+}
+
+.left-home-sec {
+  width: 50%;
+}
+
+.home-sec-greeting {
+  letter-spacing: 5px;
+}
+
+.home-sec-main-heading {
+  line-height: 85px;
+}
+
+.home-sec-main-para {
+  line-height: 28px;
+}
+
+.home-accounts-text-sec:first-child {
+  line-height: 37.5px;
+}
+
+.right-home-sec {
+  width: 50%;
+}
+
+.home-img-sec img {
+  width: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+  .home-sec .container {
+    display: block !important;
+  }
+
+  .container .left-home-sec,
+  .container .right-home-sec {
+    width: 100% !important;
+  }
+
+  .container .right-home-sec {
+    justify-content: center !important;
+    margin-top: 30px !important;
+  }
+
+  .right-home-sec .home-img-sec {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-sec .container {
+    text-align: center;
+  }
+
+  .left-home-sec .home-install-app-sec,
+  .left-home-sec .home-accounts-sec {
+    justify-content: center;
+  }
+
+  .left-home-sec .home-sec-main-heading {
+    font-size: 50px !important;
+    line-height: 70px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .left-home-sec .home-sec-main-heading {
+    font-size: 25px !important;
+    line-height: 50px;
+  }
+
+  .home-img-sec img {
+    width: 250px;
+  }
+
+  .left-home-sec .home-install-app-sec,
+  .left-home-sec .home-accounts-sec {
+    display: block !important;
+  }
+
+  .left-home-sec .home-install-app-sec div,
+  .left-home-sec .home-accounts-sec div {
+    margin: 0 0 10px 0 !important;
+  }
+}
