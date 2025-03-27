@@ -336,3 +336,46 @@
     font-size: 25px !important;
   }
 }
+
+/* About Us Section */
+
+.about-sec {
+  padding: 0 0 100px 0 !important;
+}
+
+.about-sec-container {
+  padding: 0 50px !important;
+}
+
+.left-about-sec,
+.right-about-sec {
+  width: 50%;
+}
+
+.left-about-sec div {
+  width: 100%;
+  height: 100%;
+}
+
+.left-about-sec div img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 585px) {
+  .about-sec .about-sec-container {
+    display: block !important;
+    text-align: center;
+    padding: 10px !important;
+  }
+
+  .about-sec-container .left-about-sec,
+  .about-sec-container .right-about-sec {
+    width: 100%;
+  }
+
+  .about-sec-container .right-about-sec {
+    margin-top: 50px !important;
+    padding: 0 !important;
+  }
+}
