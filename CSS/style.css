@@ -127,6 +127,85 @@
 
 /* Width Related */
 
-.max-width-1320px{
-    max-width: 1320px;
+.max-width-1320px {
+  max-width: 1320px;
+}
+
+/* Button Related */
+
+.btn-bg-sim-green-color-white {
+  background-color: var(--sim-light-green-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 100px;
+}
+
+/* Header Section */
+
+.header-sec {
+  width: 100%;
+  background-color: #f2fbf5;
+}
+
+.header-menu-sec ul {
+  margin-right: 30px !important;
+}
+
+.header-menu-sec ul li:hover a {
+  color: var(--sim-dark-green-color);
+}
+
+@media screen and (max-width: 995px) {
+  .header-sec .container {
+    display: block !important;
+    text-align: center;
+  }
+
+  .container .left-header-sec,
+  .container .right-header-sec {
+    justify-content: center !important;
+  }
+
+  .container .right-header-sec {
+    margin-top: 15px !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container .right-header-sec {
+    display: block !important;
+  }
+
+  .right-header-sec div ul {
+    justify-content: center;
+    margin: 0px 0px 20px 0px !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header-menu-sec ul li a {
+    margin-right: 20px !important;
+  }
+
+  .header-menu-sec ul li:last-child a {
+    margin-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-logo-sec img {
+    width: 50px !important;
+  }
+
+  .web-name-sec p {
+    font-size: 25px !important;
+  }
+
+  .header-menu-sec ul {
+    display: block !important;
+  }
+
+  .header-menu-sec ul li a {
+    margin-right: 0px !important;
+  }
 }
