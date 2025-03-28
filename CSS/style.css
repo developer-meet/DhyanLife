@@ -495,3 +495,70 @@
     font-size: 25px !important;
   }
 }
+
+/* Send Message Section */
+
+.send-message-sec {
+  background: #f2fbf5;
+  padding: 100px 0 !important;
+}
+
+.send-message-container {
+  padding: 0 50px !important;
+}
+
+.send-message-container .left-message-container,
+.send-message-container .right-message-container {
+  width: 50%;
+}
+
+.message-sec-form {
+  display: block !important;
+}
+
+.message-sec-form label input,
+.message-sec-form textarea {
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid #e5e7eb;
+  width: 100%;
+}
+
+.message-sec-form textarea {
+  max-height: 43px;
+}
+
+@media screen and (max-width: 970px) {
+  .message-sec-main-heading div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .send-message-sec .send-message-container {
+    display: block !important;
+  }
+
+  .send-message-container .left-message-container,
+  .send-message-container .right-message-container {
+    width: 100% !important;
+  }
+
+  .send-message-container .right-message-container {
+    margin-top: 30px !important;
+  }
+
+  .right-message-container div {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .message-sec-main-heading p {
+    font-size: 25px !important;
+  }
+
+  .send-message-sec .send-message-container {
+    padding: 20px !important;
+  }
+}
