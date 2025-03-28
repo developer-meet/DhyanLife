@@ -452,3 +452,46 @@
     font-size: 25px !important;
   }
 }
+
+/* Global Community Section */
+
+.community-container {
+  padding: 100px 0 !important;
+}
+
+.community-persons-sec {
+  flex-wrap: wrap !important;
+  gap: 20px;
+}
+.community-persons-sec .person-benjamin,
+.community-persons-sec .person-harper,
+.community-persons-sec .person-sophia {
+  width: 30%;
+  padding: 50px !important;
+  border-radius: 250px;
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 0px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+.community-persons-sec .person-harper {
+  background-color: var(--sim-light-green-color);
+}
+
+@media screen and (max-width: 950px) {
+  .community-container .community-persons-sec {
+    display: block !important;
+  }
+
+  .community-persons-sec .person-benjamin,
+  .community-persons-sec .person-harper,
+  .community-persons-sec .person-sophia {
+    width: 90%;
+    margin: 20px auto 0 !important;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .community-container-main-heading {
+    font-size: 25px !important;
+  }
+}
