@@ -562,3 +562,55 @@
     padding: 20px !important;
   }
 }
+
+/* Section 9 */
+
+.sec-9 {
+  padding: 100px 0 !important;
+}
+
+.sec-9-container {
+  padding: 0 50px !important;
+}
+
+.sec-9-container .sec-9-left-sec,
+.sec-9-container .sec-9-right-sec {
+  width: 50% !important;
+}
+
+@media screen and (max-width: 888px) {
+  .sec-9 .sec-9-container {
+    display: block !important;
+  }
+
+  .sec-9-container .sec-9-left-sec,
+  .sec-9-container .sec-9-right-sec {
+    width: 100% !important;
+  }
+
+  .sec-9-container .sec-9-left-sec div img {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sec-9-container .sec-9-right-sec {
+    text-align: center;
+  }
+
+  .sec-9-right-sec p,
+  .sec-9-right-sec div {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sec-9-right-sec .sec-9-main-heading {
+    font-size: 25px !important;
+  }
+
+  .sec-9 .sec-9-container {
+    padding: 0 20px !important;
+  }
+}
