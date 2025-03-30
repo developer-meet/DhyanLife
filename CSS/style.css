@@ -29,6 +29,7 @@
   --sim-light-green-color: #76b29d;
   --sim-dark-grey-color: #7a7a7a;
   --white-color: white;
+  --white-light-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Some common styles */
@@ -53,6 +54,10 @@
 
 .white-color {
   color: var(--white-color);
+}
+
+.white-light-color {
+  color: var(--white-light-color);
 }
 
 /* Font Family Related */
@@ -612,5 +617,71 @@
 
   .sec-9 .sec-9-container {
     padding: 0 20px !important;
+  }
+}
+
+/* Footer Section */
+
+.footer-section {
+  background-color: var(--sim-black-color);
+}
+
+.footer-container {
+  padding: 0 50px !important;
+}
+
+.footer-dhyanlife-sec div {
+  width: auto !important;
+}
+
+.footer-top-sec-form input {
+  background-color: #ffffff0d !important;
+  outline: none;
+  border: 2px solid var(--white-color) !important;
+  border-radius: 10px;
+}
+
+.footer-bottom-sec {
+  border-top: 2px solid var(--white-light-color);
+}
+
+@media screen and (max-width: 1075px) {
+  .footer-container .footer-top-sec {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .footer-top-sec div {
+    margin-bottom: 20px !important;
+  }
+
+  .footer-top-sec .footer-dhyanlife-sec {
+    width: 100% !important;
+  }
+
+  .footer-dhyanlife-sec div {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-container .footer-bottom-sec {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .footer-bottom-sec:last-child div {
+    margin-top: 10px !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-bottom-sec div p {
+    margin-right: 0 !important;
+  }
+  .footer-bottom-sec:last-child div {
+    display: block !important;
+    text-align: center !important;
   }
 }
